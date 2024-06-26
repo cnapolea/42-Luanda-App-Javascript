@@ -10,10 +10,14 @@ const UserSchema = mongoose.Schema({
     type: String,
     default: ''
   },
+  refreshToken: {
+    type: String,
+    default: ''
+  },
   createdAt: {
     type: Date,
     default: Date.now,
-    expires: 4600
+    expires: 300
   }
 });
 

@@ -46,8 +46,9 @@ const validateKeyCloakUser = async (req, res, next) => {
 
     if (!user.token) {
       const response = await axios(config);
-      const token = response.data.access_token;
+      const { access_token: token, refresh_token } = response.data;
       user.token = token;
+      user.refreshToken = refresh_token; //implement refreshToken
       user.save();
       req.user = user;
       next();
