@@ -1,0 +1,2 @@
+2024-07-04T20:20:23.965Z [ERROR]: Testing error handler -GET /error - ::1
+

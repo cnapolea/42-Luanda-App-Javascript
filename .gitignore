@@ -1,0 +1,108 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variables
+.env
+.env.test
+
+# Next.js build output
+.next
+out
+
+# Gatsby files
+.cache/
+public/
+
+# Vuepress
+.vuepress/dist/
+
+# Nuxt.js build output
+.nuxt
+dist
+
+# Vue.js auto-generated local config
+.local
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# VSCode settings
+.vscode/
+
+# React Native
+*.xcworkspace
+*.expo
+.expo-shared
+*.xcuserdata
+*.xcuserdatad/
+ios/
+android/
+
+# Parcel-bundler cache
+.cache
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Svelte
+__sapper__/
+svelte-kit
+
+# .env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Yarn
+.pnp.*
+.yarn-integrity
+
+# Optional directories by tools
+.cache/
+.pnp.js
+
+# MongoDB
+*.lock
+
+# npm generated files
+package-lock.json
+yarn.lock
+
+# JetBrains IDEs
+.idea/
+
+# ESLint cache
+.eslintcache
+
+# Jest
+jest/

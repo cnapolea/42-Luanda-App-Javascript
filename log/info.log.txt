@@ -1,0 +1,12 @@
+2024-07-04T19:59:04.217Z [INFO]: GET /error - ::1
+
+2024-07-04T20:05:40.314Z [INFO]: GET /error - ::1
+
+2024-07-04T20:07:35.963Z [INFO]: GET /error - ::1
+
+2024-07-04T20:09:51.985Z [INFO]: GET /error - ::1
+
+2024-07-04T20:20:23.958Z [INFO]: GET /error - ::1
+
+2024-07-04T20:20:23.965Z [ERROR]: Testing error handler -GET /error - ::1
+
