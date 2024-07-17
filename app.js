@@ -7,6 +7,7 @@ const connectDB = require("./config/db.config");
 
 const { errorHandler, logHandler } = require("./middleware/logHandler");
 
+
 const apiRoute = require("./intra/router/cluster.route");
 const authRoute = require("./intra/router/auth.router");
 const studentRoute = require("./intra/router/student.router");
@@ -30,6 +31,7 @@ if (process.env.NODE_ENV === "development") {
 //Connect Database
 connectDB();
 
+// Create authentication for PowerBI
 app.use("/authenticate", authRoute);
 app.use("/api", apiRoute);
 app.use("/students", validadeUserMiddleWare, studentRoute);

@@ -6,6 +6,6 @@ const {
   authenticateUserController
 } = require('../controllers/auth.controller');
 
-router.get('', validateKeyCloakUser, authenticateUserController);
+router.get('', authenticateUserController);
 
 module.exports = router;
