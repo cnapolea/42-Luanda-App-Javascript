@@ -1,47 +1,77 @@
-require('dotenv').config();
-const axios = require('axios');
+require("dotenv").config();
+const axios = require("axios");
+const clientOAuth2 = require("client-oauth2");
 
-const User = require('../model/User');
+const User = require("../model/User");
+const { createUser, userAndTokenCheck } = require("../../helper/user.helper");
+
+let intraAuth = new clientOAuth2({
+  clientId: process.env.CLIENT_UID_42,
+  clientSecret: process.env.CLIENT_SECRET_KEY_42,
+  authorizationUri: process.env.API_AUTH_URL,
+  accessTokenUri: process.env.API_AUTH_URL_TOKEN,
+  redirectUri: process.env.REDIRECT_URI_42,
+});
+
+const validateUser = async (req, res, next) => {
+  const user = await userAndTokenCheck("cnapolea");
+  let uri = await intraAuth.code.getUri();
+  if (!user) {
+    let options = {
+      maxAge: 1000 * 60 * 3,
+      httpOnly: true,
+    };
+    res.cookie("originalUrl", req.originalUrl, options);
+    res.redirect(uri);
+  } else {
+    req.user = user;
+    next();
+  }
+};
 
 const authenticateUserController = async (req, res, next) => {
-  let user = await User.findOne({ userId: 1 });
-  let code = req.query.code || '';
+  try {
+    let user = await User.findOne({ userName: "cnapolea" });
 
-  if (!code) {
-    res.status(401).json({
-      message: 'We did not receive a code from 42 Intra Authentication'
-    });
+    const token = await intraAuth.code.getToken(req.originalUrl);
+
+    if (!user) {
+      let userPropertiesObj = {
+        access_token: token.accessToken,
+        refresh_token: token.refreshToken,
+        token_expiration_date: token.expires,
+      };
+
+      createUser({
+        userName: "cnapolea", // PLACEHOLDER TO BE CHANGE
+        ...userPropertiesObj,
+      });
+
+      req.user = user;
+      res.redirect(req.cookies.originalUrl);
+    }
+
+    let currentDate = new Date();
+    let accessTokenExpirationDate = user.token_expiration_date;
+
+    if (currentDate >= accessTokenExpirationDate) {
+      let refreshedToken = await token.refresh();
+      let userPropertiesObj = {
+        access_token: refreshedToken.accessToken,
+        refresh_token: refreshedToken.refreshToken,
+        token_expiration_date: refreshedToken.expires,
+      };
+      Object.assign(user, userPropertiesObj);
+      user.save();
+      req.user = user;
+      res.redirect(req.cookies.originalUrl);
+    }
+  } catch (error) {
+    next(error);
   }
-  // storing requested code in logged user
-  user.code = code;
-  await user.save();
-
-  const payload = {
-    grant_type: 'authorization_code',
-    client_id: process.env.CLIENT_UID_42,
-    client_secret: process.env.CLIENT_SECRET_KEY_42,
-    code,
-    redirect_uri: 'http://localhost:3000/authenticate'
-  };
-  // requesting token
-  const response = await axios.post(process.env.API_AUTH_URL_TOKEN, payload);
-  const token = response.data.access_token;
-
-  user.token = token;
-  await user.save();
-
-  if (token === '') {
-    return res.status(401).json({
-      message: 'We did not receive a code from 42 Intra Authentication'
-    });
-  }
-
-  // Saving the changes to the user with id:1
-
-  req.user = user;
-  next();
 };
 
 module.exports = {
-  authenticateUserController
+  validateUser,
+  authenticateUserController,
 };

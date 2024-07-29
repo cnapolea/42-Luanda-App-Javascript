@@ -1,11 +1,10 @@
 const router = require('express').Router();
 const {
-  getCadetsController,
-  getStudentsController
+  getStudentsController,
+  getStudentCandidatureController
 } = require('../controllers/student.controller');
-const { validateUser } = require('../middleware/user.authentication');
 
-router.get('', validateUser, getStudentsController);
-router.get('/cadets', validateUser, getCadetsController);
+router.get('', getStudentsController);
+router.get('/candidatures', getStudentCandidatureController);
 
 module.exports = router;

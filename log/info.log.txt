@@ -36,3 +36,935 @@
 
 2024-07-16T23:01:50.893Z [INFO]: GET /favicon.ico - ::1
 
+2024-07-17T13:37:38.342Z [INFO]: GET /students - ::1
+
+2024-07-17T13:37:39.228Z [INFO]: GET /authenticate?code=471b1657e12e53faeafedfef07066d256e3d3b333d2ac5678f96cc315bf7a354 - ::1
+
+2024-07-17T13:49:35.713Z [INFO]: GET /students - ::1
+
+2024-07-17T21:47:43.526Z [INFO]: GET /students - ::1
+
+2024-07-17T21:47:44.162Z [INFO]: GET /authenticate?code=a362def2d1c19775fbe6014102fe0c69f1db2b0b2bb2ef079bbe6a216a25c292 - ::1
+
+2024-07-17T21:48:25.728Z [INFO]: GET /students - ::1
+
+2024-07-17T21:48:56.325Z [INFO]: GET /authenticate?code=2fe653043dd6f70dce3318a5787c1f1e25a996b1e66aa904fc543b2b253dbd05 - ::1
+
+2024-07-24T22:38:30.721Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T22:38:49.931Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T22:39:13.999Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T22:46:14.552Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T22:48:54.030Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T22:48:54.249Z [INFO]: GET /authenticate?code=c781432d175d6a38f51bce53cdcae74c3308d794ec3103a1607d2020860a8f5d - ::1
+
+2024-07-24T22:57:59.363Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T22:58:00.047Z [INFO]: GET /authenticate?code=f2d4551e7616a2eb75d5eb4b0bc64256536bf29dcf3f6905cd474329eed17632 - ::1
+
+2024-07-24T22:59:13.858Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T22:59:14.072Z [INFO]: GET /authenticate?code=759f0e43d39097523113c25512dd8fa961cf7687922dddabc2bbccdb976320c7 - ::1
+
+2024-07-24T23:00:45.149Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T23:00:45.647Z [INFO]: GET /authenticate?code=33b538be4c8006ee9574747fa00b852d23d834603756395ff05d5fe274f23266 - ::1
+
+2024-07-24T23:04:47.729Z [INFO]: GET /authenticate?code=33b538be4c8006ee9574747fa00b852d23d834603756395ff05d5fe274f23266 - ::1
+
+2024-07-24T23:06:25.379Z [INFO]: GET /authenticate?code=33b538be4c8006ee9574747fa00b852d23d834603756395ff05d5fe274f23266 - ::1
+
+2024-07-24T23:26:04.626Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T23:26:56.058Z [INFO]: GET /authenticate?code=a485bd62c8288b01e69c9aceaf1c972750a5d04b20d8a5a9b60c3f19e6e0f257 - ::1
+
+2024-07-24T23:31:49.100Z [INFO]: GET /authenticate?code=a485bd62c8288b01e69c9aceaf1c972750a5d04b20d8a5a9b60c3f19e6e0f257 - ::1
+
+2024-07-24T23:48:30.779Z [INFO]: GET /authenticate?code=a485bd62c8288b01e69c9aceaf1c972750a5d04b20d8a5a9b60c3f19e6e0f257 - ::1
+
+2024-07-24T23:50:08.881Z [INFO]: GET /authenticate?code=a485bd62c8288b01e69c9aceaf1c972750a5d04b20d8a5a9b60c3f19e6e0f257 - ::1
+
+2024-07-24T23:54:49.343Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-24T23:55:01.856Z [INFO]: GET /authenticate?code=62b58deadb1275e886e7df398b5889e484e484f46d849a4c23f603832a805bb9 - ::1
+
+2024-07-25T00:14:44.428Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:14:45.595Z [INFO]: GET /authenticate?code=2ca809336d2921029e7bccfcbd1a3fd228d9c2f17fa7a7efaec799c1f9a0dbc7 - ::1
+
+2024-07-25T00:16:16.144Z [INFO]: GET /authenticate?code=2ca809336d2921029e7bccfcbd1a3fd228d9c2f17fa7a7efaec799c1f9a0dbc7 - ::1
+
+2024-07-25T00:18:48.678Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:18:49.199Z [INFO]: GET /authenticate?code=06d649807ab8a16afb02351b9572dc13fe0714b341227d5f08b4c3f8b56d3eb5 - ::1
+
+2024-07-25T00:19:20.533Z [INFO]: GET /authenticate?code=06d649807ab8a16afb02351b9572dc13fe0714b341227d5f08b4c3f8b56d3eb5 - ::1
+
+2024-07-25T00:19:20.570Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:20:23.879Z [INFO]: GET /authenticate?code=60a9c468ba1f9fbadd3bb072614fc32a3dce682066f64012cdeab3ec9c94efdf - ::1
+
+2024-07-25T00:22:16.154Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:22:30.250Z [INFO]: GET /authenticate?code=75ed31cb4fcb4a98e96d305cd3262bfc326720da6357d2b90f415fd5ab222fef - ::1
+
+2024-07-25T00:24:46.219Z [INFO]: GET /authenticate?code=75ed31cb4fcb4a98e96d305cd3262bfc326720da6357d2b90f415fd5ab222fef - ::1
+
+2024-07-25T00:25:32.667Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:25:41.727Z [INFO]: GET /authenticate?code=b44be1e02db034a249583e33a1cc6ecfc5e8653cfcb39b73b46e59f3a2457d38 - ::1
+
+2024-07-25T00:26:42.019Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:26:50.406Z [INFO]: GET /authenticate?code=8c8038fb220013de24ec49906110b153fc79348b315469ea5894141a861edbf6 - ::1
+
+2024-07-25T00:28:27.808Z [INFO]: GET /authenticate?code=8c8038fb220013de24ec49906110b153fc79348b315469ea5894141a861edbf6 - ::1
+
+2024-07-25T00:29:01.752Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:29:02.331Z [INFO]: GET /authenticate?code=ad5801431f60af2f4cb62d26a3a3465f71b1b0b773f1a54faf227126148e985a - ::1
+
+2024-07-25T00:29:40.148Z [INFO]: GET /authenticate?code=ad5801431f60af2f4cb62d26a3a3465f71b1b0b773f1a54faf227126148e985a - ::1
+
+2024-07-25T00:30:09.113Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T00:30:09.661Z [INFO]: GET /authenticate?code=46e9d09ace7697a85264156a75dca6eaa560fca452dd7bedda55ea6bc9269476 - ::1
+
+2024-07-25T01:10:58.772Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:10:59.464Z [INFO]: GET /authenticate?code=33a5ecd1c780e1bb124528e64ed20f15cf23b7f96eaef04fc3b1a38ac840da0c - ::1
+
+2024-07-25T01:19:32.938Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:19:33.484Z [INFO]: GET /authenticate?code=6fb9cae8f5b9166ad25f6041cc90bdf2fbf7f3e4edd9b0ccd68d87d4a25d3b86 - ::1
+
+2024-07-25T01:19:34.331Z [ERROR]: Assignment to constant variable. -GET /authenticate?code=6fb9cae8f5b9166ad25f6041cc90bdf2fbf7f3e4edd9b0ccd68d87d4a25d3b86 - ::1
+
+2024-07-25T01:20:34.455Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:20:34.999Z [INFO]: GET /authenticate?code=85d84a438812c86add64a257e0d8458d99d0d39101e3d06e23081c6648541306 - ::1
+
+2024-07-25T01:20:35.584Z [ERROR]: Cannot access 'token' before initialization -GET /authenticate?code=85d84a438812c86add64a257e0d8458d99d0d39101e3d06e23081c6648541306 - ::1
+
+2024-07-25T01:21:46.176Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:21:46.420Z [INFO]: GET /authenticate?code=9b01c2f5197b056d519ac90bd2c200508be7d7e6b545fc15b4db05122c3e7eef - ::1
+
+2024-07-25T01:23:43.307Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:23:43.819Z [INFO]: GET /authenticate?code=6aab56d190a0ab843abd97074bcda7de3999fadfda5b5e01078b859bd8664e77 - ::1
+
+2024-07-25T01:25:42.451Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:25:43.049Z [INFO]: GET /authenticate?code=d2148e2a75ee0a3828150d550007f77b6aca4a8da4c5a4683266eaa312733ec2 - ::1
+
+2024-07-25T01:26:32.832Z [INFO]: GET /authenticate?code=d2148e2a75ee0a3828150d550007f77b6aca4a8da4c5a4683266eaa312733ec2 - ::1
+
+2024-07-25T01:26:33.366Z [ERROR]: The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. -GET /authenticate?code=d2148e2a75ee0a3828150d550007f77b6aca4a8da4c5a4683266eaa312733ec2 - ::1
+
+2024-07-25T01:26:50.505Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:26:51.042Z [INFO]: GET /authenticate?code=f285acfea2834ce8aeff66d3f2431ece8ead39e151d139e7474dbb5b03ad9a0a - ::1
+
+2024-07-25T01:28:08.422Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:28:08.653Z [INFO]: GET /authenticate?code=d4c38cbdae3c31142a2b74694b1fd42cc3996ccb0a63035e07edcf10b607f9f6 - ::1
+
+2024-07-25T01:28:39.300Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:28:39.684Z [INFO]: GET /authenticate?code=22e2fad09e380e3bf2a7b62bddbbff418aae5b266e656e21f5b684a6009ff9c9 - ::1
+
+2024-07-25T01:30:09.505Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:30:09.720Z [INFO]: GET /authenticate?code=d7467ec84b6e1cf24b5ffd20949ad19721d3b87a329dec63a56595cf0d909480 - ::1
+
+2024-07-25T01:32:05.278Z [INFO]: GET /authenticate/getCode - ::1
+
+2024-07-25T01:32:05.815Z [INFO]: GET /authenticate?code=37069349699aa2e7a3a476d2497728c4dd9d07768921045e817a1c59e8e7d704 - ::1
+
+2024-07-25T01:52:48.110Z [INFO]: GET /authenticate/user-validation - ::1
+
+2024-07-26T00:38:33.116Z [INFO]: GET /students - ::1
+
+2024-07-26T00:38:33.195Z [INFO]: GET /favicon.ico - ::1
+
+2024-07-26T00:40:48.226Z [INFO]: GET /students - ::1
+
+2024-07-26T00:43:16.528Z [INFO]: GET /students - ::1
+
+2024-07-26T00:44:14.855Z [INFO]: GET /students - ::1
+
+2024-07-26T00:44:15.595Z [INFO]: GET /students - ::1
+
+2024-07-26T00:44:15.976Z [INFO]: GET /students - ::1
+
+2024-07-26T00:44:16.130Z [INFO]: GET /students - ::1
+
+2024-07-26T00:44:45.732Z [INFO]: GET /students - ::1
+
+2024-07-26T00:45:45.405Z [INFO]: GET /students - ::1
+
+2024-07-26T00:55:54.628Z [INFO]: GET /students - ::1
+
+2024-07-26T00:58:35.501Z [INFO]: GET /students - ::1
+
+2024-07-26T01:01:16.649Z [INFO]: GET /students - ::1
+
+2024-07-26T01:05:49.743Z [INFO]: GET /students - ::1
+
+2024-07-26T01:05:50.263Z [INFO]: GET /authenticate?code=52c2eb77d2ae3dd4386860298122ffb70ac2477678d14fc16709ee77f0a5a178 - ::1
+
+2024-07-26T01:05:50.573Z [INFO]: GET /authenticate?code=8c5fb65464064005aa1b0c42cd243e828cd90883ef23d9f191d787ab027ed725 - ::1
+
+2024-07-26T01:05:50.902Z [INFO]: GET /authenticate?code=1cc03e1d64d5d4fa424c11e1c01100a026f673bd6c1643e03bfd5854355a3578 - ::1
+
+2024-07-26T01:05:51.267Z [INFO]: GET /authenticate?code=dc9355159ed85b055045007a8167dab19849117d3b1cf61c9abfdfc28439e563 - ::1
+
+2024-07-26T01:05:51.486Z [INFO]: GET /authenticate?code=7abf0aac73da0a9c291306e6dc84f24cf00fca2c0bdb20459ae73f6ea8f8d087 - ::1
+
+2024-07-26T01:05:51.781Z [INFO]: GET /authenticate?code=7792abe454106f0e68dc898b2ecb40e0a40eb5c862deb5d35e7be82e544b3751 - ::1
+
+2024-07-26T01:05:51.984Z [INFO]: GET /authenticate?code=421fcd5b26c35752a18a870e7cf54a1a2e440eca988feb2355642d7d80efafe8 - ::1
+
+2024-07-26T01:05:52.192Z [INFO]: GET /authenticate?code=d463129497ac0a1ecb96f2d16f343a6c21fb687e62263c97fc5eefd80d8310d7 - ::1
+
+2024-07-26T01:05:52.406Z [INFO]: GET /authenticate?code=d43aff433464f6b95e7365be05a769cd4476302f500ce2e94eeb4dece5a494dd - ::1
+
+2024-07-26T01:05:53.904Z [INFO]: GET /authenticate?code=452dcc1bc7325ef7ec462d4b963f740331b04df99f78e49b12c83e7e3234ef3b - ::1
+
+2024-07-26T01:05:54.108Z [INFO]: GET /authenticate?code=dd70dee5f0834487912095e892037c80071e50285ccda3bebfaac99e8ea4a7be - ::1
+
+2024-07-26T01:05:54.379Z [INFO]: GET /authenticate?code=8a27358c067847c5f91d3b6fd6b054029d1ea60104f76d235e493c99b1644cc1 - ::1
+
+2024-07-26T01:05:54.585Z [INFO]: GET /authenticate?code=d6333a037148418c0ab42ee44e04dd4edf57e8c84970bfcf5d63ebf30ca3f7bd - ::1
+
+2024-07-26T01:05:54.788Z [INFO]: GET /authenticate?code=ef84105d8ab0767cb7096ffd85efbf72f94f00cd7fd704093e6c5acfa0782908 - ::1
+
+2024-07-26T01:05:55.361Z [INFO]: GET /authenticate?code=180f23e17a722dc303a3b2e3d6da254fb44316751c60672a113fbda5f02c5bc2 - ::1
+
+2024-07-26T01:05:55.560Z [INFO]: GET /authenticate?code=3d0934ab8c99c9ce9cbd545732cbb51a5057857bf2bebe46dac4c4da279077ea - ::1
+
+2024-07-26T01:05:55.874Z [INFO]: GET /authenticate?code=9f28d51786640aa696f7eeac07e2a92f6a08ae04f6f17e9fd26b83bb904eec30 - ::1
+
+2024-07-26T01:05:56.077Z [INFO]: GET /authenticate?code=979bb6a5c56bb28748ffb777f136144c30a157346ad4aac2539ed810043850cd - ::1
+
+2024-07-26T01:05:56.285Z [INFO]: GET /authenticate?code=9c0d7f341bb2f161f74e1c88dc97305f8d01943e162f257d1578c0fc5e19c6f6 - ::1
+
+2024-07-26T01:06:01.320Z [INFO]: GET /authenticate?code=9c0d7f341bb2f161f74e1c88dc97305f8d01943e162f257d1578c0fc5e19c6f6 - ::1
+
+2024-07-26T01:06:01.523Z [INFO]: GET /authenticate?code=38a48a93579b84ad082e611bcebba20d81cddda30af3b067a29e783d6ef2fd5a - ::1
+
+2024-07-26T01:06:01.725Z [INFO]: GET /authenticate?code=50adadcfa73b1b47e91032712aef9471169f251256c95d0759c574958745e75c - ::1
+
+2024-07-26T01:06:01.928Z [INFO]: GET /authenticate?code=b753affea04d60b74a92e41586c4a0dff2a0f471cd883166fcc6551cccde9d3a - ::1
+
+2024-07-26T01:06:02.138Z [INFO]: GET /authenticate?code=fa71519d85737774fc01f5f839b92bbd93dfe5be8562de7a43b1ab7ba2c8ed65 - ::1
+
+2024-07-26T01:06:02.340Z [INFO]: GET /authenticate?code=8f276ee372496c77c168cfa8d5b2eb327fd0afe80cf3544b1bd36562fb268a0e - ::1
+
+2024-07-26T01:06:02.540Z [INFO]: GET /authenticate?code=794cbbc31237c735c77cbe17b2e2873ec4559e3dfb095bad72ca468f0041e4df - ::1
+
+2024-07-26T01:06:02.744Z [INFO]: GET /authenticate?code=2b2d2d43c3a54793c85a04f153961d273657cde57242423eb3a6008194bdcfe6 - ::1
+
+2024-07-26T01:06:02.949Z [INFO]: GET /authenticate?code=aba5aee00707f3fe709ce4e7a6cea6a4e003adc5109ff18cf973fd133e89e7d9 - ::1
+
+2024-07-26T01:06:03.148Z [INFO]: GET /authenticate?code=3415f77b91802464210ccde978e59e76e71ff47fe6c6f0b764f77de61d51f71b - ::1
+
+2024-07-26T01:06:33.595Z [INFO]: GET /authenticate?code=1590bf00d121d26ba48f3c99f53e9ad5ab3aab5a7a779191bce33545796d3031 - ::1
+
+2024-07-26T01:06:33.804Z [INFO]: GET /authenticate?code=97279dff876bd81cf1b9511c60431639f3cd4da4df8554c2b726d2903ba0e2b5 - ::1
+
+2024-07-26T01:06:34.017Z [INFO]: GET /authenticate?code=cf454f7102b09d92c2353de88bbb20f547fe9f00f9a64b44434dc89f99520edf - ::1
+
+2024-07-26T01:06:34.229Z [INFO]: GET /authenticate?code=f7362ae51f97d26ea45348867f3419f1b9dc0daf4d17aeefa21d084962d44e22 - ::1
+
+2024-07-26T01:06:34.437Z [INFO]: GET /authenticate?code=bc6b8a0c08fb1a2409460e86e52eb67dd126fa2b5f33ebf5539a4c270d5076f5 - ::1
+
+2024-07-26T01:06:34.638Z [INFO]: GET /authenticate?code=1a2fc074fbf9846c984545a437175c54d017fc8f336e31e78b2148628012c01f - ::1
+
+2024-07-26T01:06:34.842Z [INFO]: GET /authenticate?code=70756f38de8755ad556b2ede696c13978765897b27e952f8cdae86d09b005207 - ::1
+
+2024-07-26T01:06:35.052Z [INFO]: GET /authenticate?code=2a0e18a4fa9e0f063646a1702307cf67cf5f8d7a48c87721a78495c0ea61d72e - ::1
+
+2024-07-26T01:06:35.284Z [INFO]: GET /authenticate?code=f2d124cd7059061ba4a241366611a8d13071ececde424d481066e4fbf5debf7c - ::1
+
+2024-07-26T01:06:35.486Z [INFO]: GET /authenticate?code=0df063246ec6b1f6e0adf9e2b3e6b7a350056b3de43658c2b4255282c3059cb7 - ::1
+
+2024-07-26T01:06:37.907Z [INFO]: GET /authenticate?code=0df063246ec6b1f6e0adf9e2b3e6b7a350056b3de43658c2b4255282c3059cb7 - ::1
+
+2024-07-26T01:06:38.117Z [INFO]: GET /authenticate?code=037e43233126b8240affc3a892f8f228aec02aed9e2d0e0f8ab3dd63a4b6c927 - ::1
+
+2024-07-26T01:06:38.322Z [INFO]: GET /authenticate?code=03fee137f1786a345fe9f622bafc999443b54cc25c9cdb23e7945e963a0345ea - ::1
+
+2024-07-26T01:06:38.528Z [INFO]: GET /authenticate?code=4dd9cf7105348575bc20f5ff3b16cd2d7340a98667e4f33c9ac3b5045b522e19 - ::1
+
+2024-07-26T01:06:38.730Z [INFO]: GET /authenticate?code=3aa027426b064ff4ec8aac6079daefc4798854897ee82540aa48ae8b2977c963 - ::1
+
+2024-07-26T01:06:38.943Z [INFO]: GET /authenticate?code=fb41c8972c973b823313f0cfc31d6795b25f70c3d90af6c458576c105d780e2e - ::1
+
+2024-07-26T01:07:12.985Z [INFO]: GET /students - ::1
+
+2024-07-26T01:07:13.250Z [INFO]: GET /authenticate?code=3ae0a19f6bd00f70f421b4b245efcdd8187245710c917d9d8deafc3dc2fc7779 - ::1
+
+2024-07-26T01:23:11.780Z [INFO]: GET /students - ::1
+
+2024-07-26T01:23:11.811Z [ERROR]: Cannot access 'user' before initialization -GET /students - ::1
+
+2024-07-26T01:23:47.742Z [INFO]: GET /students - ::1
+
+2024-07-26T01:23:47.777Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:25:29.726Z [INFO]: GET /students - ::1
+
+2024-07-26T01:25:29.758Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:25:41.966Z [INFO]: GET /students - ::1
+
+2024-07-26T01:25:41.998Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:26:42.848Z [INFO]: GET /students - ::1
+
+2024-07-26T01:26:42.886Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:27:42.408Z [INFO]: GET /students - ::1
+
+2024-07-26T01:27:42.456Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:28:29.989Z [INFO]: GET /students - ::1
+
+2024-07-26T01:28:30.017Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:29:34.351Z [INFO]: GET /students - ::1
+
+2024-07-26T01:29:34.384Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:29:58.573Z [INFO]: GET /students - ::1
+
+2024-07-26T01:29:58.604Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:31:00.707Z [INFO]: GET /students - ::1
+
+2024-07-26T01:31:00.757Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:31:23.852Z [INFO]: GET /students - ::1
+
+2024-07-26T01:31:23.916Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:22:57.633Z [INFO]: GET /students - ::1
+
+2024-07-26T17:22:57.664Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:30:56.417Z [INFO]: GET /students - ::1
+
+2024-07-26T17:30:56.449Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:31:46.047Z [INFO]: GET /students - ::1
+
+2024-07-26T17:31:46.074Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:49:10.410Z [INFO]: GET /students - ::1
+
+2024-07-26T17:49:11.066Z [INFO]: GET /authenticate?code=f456cf9acb48ff0d7410959fc88f861b156750ceeda1f4e5f076d11625dc25b3 - ::1
+
+2024-07-26T17:49:11.279Z [INFO]: GET /authenticate?code=b501147fe987fccf5e97727a74236f38e2e23fbfdf154f3febc119b22ba74db9 - ::1
+
+2024-07-26T17:49:11.538Z [INFO]: GET /authenticate?code=26d219aca8ec823a12ee377fec1b8c691dae37a57da3abc4a0abdaa97a2d950d - ::1
+
+2024-07-26T17:49:11.881Z [INFO]: GET /authenticate?code=4e7a890f4372582c7b6d4862779bbd6239ea43bfa2098f9dabb4576e703a330d - ::1
+
+2024-07-26T17:49:12.097Z [INFO]: GET /authenticate?code=14fa7c655aca51cf3c3b8bf6fc2ab7829c9a750ba20f56d746052959d6b07a15 - ::1
+
+2024-07-26T17:49:12.301Z [INFO]: GET /authenticate?code=171b98adf3b290524a5fad1c400cfa61c30e3a938d90ca1efcab4b4058a0a39c - ::1
+
+2024-07-26T17:49:12.597Z [INFO]: GET /authenticate?code=391a2bab7c4f96c9779c871261a98fc2a738ff4f5b58488716c52ad4d3c31f9b - ::1
+
+2024-07-26T17:49:12.804Z [INFO]: GET /authenticate?code=d5b160034a58048b44767835eb7c0f73f08ea45b6851de44262746ad846f902e - ::1
+
+2024-07-26T17:49:13.037Z [INFO]: GET /authenticate?code=231a78d6e6f3afbf0d798322ac7d1042f4d0cce958e823f7cf66206dff29483e - ::1
+
+2024-07-26T17:49:14.851Z [INFO]: GET /authenticate?code=4310023fbcb13cb5b761d7896b817eb3a963467c492e24e71cd97e8bcc323f0a - ::1
+
+2024-07-26T17:49:15.052Z [INFO]: GET /authenticate?code=2ad11f2a2c0424121cbbc243d247573d21fb8ef08999767f58b91e9345dbc266 - ::1
+
+2024-07-26T17:49:15.266Z [INFO]: GET /authenticate?code=f54424c78762047ca046b43178c41a7f7ec3ee26ce579356aca279ee05ce332b - ::1
+
+2024-07-26T17:49:15.468Z [INFO]: GET /authenticate?code=249677fd44d207524fc44831a167d8c14b788a8c1c7470dce23b756d995addf9 - ::1
+
+2024-07-26T17:49:15.668Z [INFO]: GET /authenticate?code=ba0c16f86ab225510a527eadc4830c56b32fbd1b17a4744ff727076095f7d2e7 - ::1
+
+2024-07-26T17:49:15.876Z [INFO]: GET /authenticate?code=d092a79aeaf0bf6434b88210694cddeae6d11c063a7703bfdb92fa15e59bf5e7 - ::1
+
+2024-07-26T17:49:16.093Z [INFO]: GET /authenticate?code=83ddcb7c3b4f04c45088780a629a88aebbf450644abd5ee01472d382994be076 - ::1
+
+2024-07-26T17:49:16.301Z [INFO]: GET /authenticate?code=4bb514dd5930c778613e7ea89cd5babbb1434030870e99ef0e8351e0ae7b0d4a - ::1
+
+2024-07-26T17:49:16.512Z [INFO]: GET /authenticate?code=eecb054688460f6e75d84b6464c812360850232f16c7826a444b2b5691794b3b - ::1
+
+2024-07-26T17:49:16.729Z [INFO]: GET /authenticate?code=f38c7813b61c7af35ba6201900184f7f717afa3cd3947a751084e531527cd8f3 - ::1
+
+2024-07-26T17:49:21.769Z [INFO]: GET /authenticate?code=f38c7813b61c7af35ba6201900184f7f717afa3cd3947a751084e531527cd8f3 - ::1
+
+2024-07-26T17:49:22.328Z [INFO]: GET /authenticate?code=46245908a60f99bdc7e0eb95acf9a74ecaa8ac18def1bf2b3ba82a95126470d0 - ::1
+
+2024-07-26T17:49:22.534Z [INFO]: GET /authenticate?code=9df293bde69d7e7578f97ff77e8ed6d9ad315ec833eb39634d62c33311688bae - ::1
+
+2024-07-26T17:49:22.734Z [INFO]: GET /authenticate?code=ff59409105032d8e46b13b68b534cfe1e00a2241d796e6aeab66b982fd07797b - ::1
+
+2024-07-26T17:49:22.935Z [INFO]: GET /authenticate?code=dc35957bb9cc27c2e08d9e0a63be0c2a889772e10377d5baddd477736b713c59 - ::1
+
+2024-07-26T17:49:23.135Z [INFO]: GET /authenticate?code=56fedce239a86e93dec9189c43e1fcd0b87713c3358b9a1807bff3333495e10b - ::1
+
+2024-07-26T17:49:23.344Z [INFO]: GET /authenticate?code=cf8f6a72c934859bb0803df5841675411195567aa0cc6b4cded38e4e35a99d20 - ::1
+
+2024-07-26T17:49:23.548Z [INFO]: GET /authenticate?code=0f05ba9c04edf0284d4910c3c8465d449eca6e915cf5f5704000d1eb9a8e801c - ::1
+
+2024-07-26T17:49:23.756Z [INFO]: GET /authenticate?code=919830d65cccf92cc3417710e615d1ae423ff7b5cc1d8e5a46141c9f5cbb1eed - ::1
+
+2024-07-26T17:49:23.957Z [INFO]: GET /authenticate?code=d6103f54be3716827e69620d461834cbe5c199e2f1f99b4c87d3edb98a66d7b7 - ::1
+
+2024-07-26T17:50:00.721Z [INFO]: GET /authenticate?code=143afb38ebdf37ff86c4d6aacaa9a86176fa316058c45dc09928b9145db54809 - ::1
+
+2024-07-26T17:50:00.960Z [INFO]: GET /authenticate?code=0e020d6d41ab251b5ff874db3c8238cd59621256ac3e8e3b8a62ec0f38866fce - ::1
+
+2024-07-26T17:50:01.159Z [INFO]: GET /authenticate?code=941f0d26bc4594adc83ee57a504ccc292bda9d3a2ff3d0c1eaca294921f9204b - ::1
+
+2024-07-26T17:50:01.358Z [INFO]: GET /authenticate?code=8ee7c926e9f9379a6d2d05d6f27fa56371d413bf524afd768cfeb8a6f06b5401 - ::1
+
+2024-07-26T17:50:01.560Z [INFO]: GET /authenticate?code=6ce9ee6fcd9b294341d83f1ae62e965af4fae9f650589c28d89ad3ffe55806e7 - ::1
+
+2024-07-26T17:50:01.767Z [INFO]: GET /authenticate?code=165460a8114316692f8b906d761b2f67dc1e7541ffca713a0ddb9151f77841d1 - ::1
+
+2024-07-26T17:50:01.975Z [INFO]: GET /authenticate?code=bfa98af699da0934f523ff1bef6bd5fd32047abecefa56ed3dd4b84d903c6926 - ::1
+
+2024-07-26T17:50:02.197Z [INFO]: GET /authenticate?code=6d58c3675630dd946bb5df1e4193470bd92dfe2e17e51562c17a1677a5fab166 - ::1
+
+2024-07-26T17:50:02.415Z [INFO]: GET /authenticate?code=7a37851b4f374fdb100851d7b3b72f6027e937660a4cca429c90d95a7c923f78 - ::1
+
+2024-07-26T17:50:02.622Z [INFO]: GET /authenticate?code=ba8e6de2a69301fef40c2580ba03236f44b78bea9c5ba51a746d805d0840a140 - ::1
+
+2024-07-26T17:50:04.074Z [INFO]: GET /authenticate?code=2ff430749c7efeef49017b7ba1bbde370cb1484ac50f380eb7a020002deaa85c - ::1
+
+2024-07-26T17:50:04.279Z [INFO]: GET /authenticate?code=711f2c7379fcf4cb64361effc7a7ced4b46f41cef4d29237d21d26fc3e666752 - ::1
+
+2024-07-26T17:50:04.481Z [INFO]: GET /authenticate?code=303ece6667de5d5d33ea289befff0ad183e4b44175b2603ec48dd9ef35a866a7 - ::1
+
+2024-07-26T17:50:04.692Z [INFO]: GET /authenticate?code=98b59cce3344c7f465d5bde50f06cc85542d9a59fd18eb52e6f01f5328ace6a1 - ::1
+
+2024-07-26T17:50:04.899Z [INFO]: GET /authenticate?code=e6d0de6a972513b7b09b857b3dfe3bcbf85494ce9e0934f5d7f2d11434e01e98 - ::1
+
+2024-07-26T17:50:05.109Z [INFO]: GET /authenticate?code=2dd01485bba48dc3eee7172ce919dd4820003ce850320a1d4af67915803bb710 - ::1
+
+2024-07-26T17:50:05.311Z [INFO]: GET /authenticate?code=ecaf5a3dc3700f9cf10938de9515be0efe399b9da8436baea47d4f8f530b84b8 - ::1
+
+2024-07-26T17:50:05.512Z [INFO]: GET /authenticate?code=6bd355b70c88cb423eccfc70e51e74f1f9b454878f14dc35f99e6862895faeb9 - ::1
+
+2024-07-26T17:50:05.712Z [INFO]: GET /authenticate?code=81d68cefe83bfffa83ecce91dc3fd84c0dd957c7a6f5710968bf7818bcfa73eb - ::1
+
+2024-07-26T17:50:06.193Z [INFO]: GET /authenticate?code=861af6e13bd04e111adde12296a50503532074e61fcd9671c164e7cfb9faef3e - ::1
+
+2024-07-26T17:50:11.232Z [INFO]: GET /authenticate?code=861af6e13bd04e111adde12296a50503532074e61fcd9671c164e7cfb9faef3e - ::1
+
+2024-07-26T17:50:11.450Z [INFO]: GET /authenticate?code=0df0a647dd87ea924ce79c9e4d2bab1e04fcb7a423f021d7c619a0c7ac508e86 - ::1
+
+2024-07-26T17:50:11.656Z [INFO]: GET /authenticate?code=7bc07fee9d32ab830cde32d9ee5ce9645a5d7dd75a96d9dd3837f534ea39d0a1 - ::1
+
+2024-07-26T17:50:11.861Z [INFO]: GET /authenticate?code=ef1f01b255f439d46730f38c3db7d4f433cde5964ee39a1fc49bb7ff9964e871 - ::1
+
+2024-07-26T17:50:12.063Z [INFO]: GET /authenticate?code=a0c57bb6b9e7ca21b51acf2d249f8e728b69615618a5851e2cb38506b83441fc - ::1
+
+2024-07-26T17:50:12.275Z [INFO]: GET /authenticate?code=5823a89fe3e270f11a34fecbe5fabb95cb2343df536a4fbbe4703ead1211cc60 - ::1
+
+2024-07-26T17:50:12.481Z [INFO]: GET /authenticate?code=07ad8746e961e14c41d5ce3ccaf9f1898049ab0b0b560076ba5cdbdd02902118 - ::1
+
+2024-07-26T17:50:12.682Z [INFO]: GET /authenticate?code=5fb230412c057d06612a617dc9106557cd5437fd4645186d7a46b176f15746c1 - ::1
+
+2024-07-26T17:50:12.888Z [INFO]: GET /authenticate?code=9358ee430de8d537e5277990572347d87ac3af199bd1d76af7bdfabf104c48e9 - ::1
+
+2024-07-26T17:50:13.095Z [INFO]: GET /authenticate?code=ec5977277f4eea48c56ee70222b4c250f4f0c0aa2d056ed68c5278ba7985468c - ::1
+
+2024-07-26T17:50:15.076Z [INFO]: GET /authenticate?code=48a847555a903bbd2fdf79b4938ec54ad73734d3ff50a5e4877767d2d015b95d - ::1
+
+2024-07-26T17:50:15.282Z [INFO]: GET /authenticate?code=3af79c074b9b97aaab5f0da56afef55a0cb52c067c285195d89dffef14669237 - ::1
+
+2024-07-26T17:50:15.478Z [INFO]: GET /authenticate?code=f7cabb84cce6b3733d72c18c28031fd7fa2e400c08dec4d8fa428783e5f60e19 - ::1
+
+2024-07-26T17:50:15.681Z [INFO]: GET /authenticate?code=6c35b96b1909a38a3ece1d9e0d8c59214248b030717b2817b3306dd6efbebb13 - ::1
+
+2024-07-26T17:50:15.884Z [INFO]: GET /authenticate?code=88d4b8ff69e15ec3b41d48868669866467a7aebeb52ad5faa084fa3ea58d3035 - ::1
+
+2024-07-26T17:51:58.089Z [INFO]: GET /authenticate?code=4ecb074007cc188f096a3ea71a3bebbb8fe900435e19b546af88f28cd2ebc902 - ::1
+
+2024-07-26T17:51:58.314Z [INFO]: GET /authenticate?code=578dcd7dabe1760dc98accaa9baf45ba498e4142b62b1320b45964a63ac33a3f - ::1
+
+2024-07-26T17:51:58.541Z [INFO]: GET /authenticate?code=b9dc377194a3bd42b7a76b44c71341847bbb94f408c3c3c89b02fa57f3c59328 - ::1
+
+2024-07-26T17:51:58.763Z [INFO]: GET /authenticate?code=c88e9c37853e1d0c4bd541c49e123245995a675bb94656647cbb24f598ae2c36 - ::1
+
+2024-07-26T17:51:58.972Z [INFO]: GET /authenticate?code=6768c6e7f096d07b961546a0bdca4d174158c0b5a566780cb3d04a0116b847d9 - ::1
+
+2024-07-26T17:51:59.180Z [INFO]: GET /authenticate?code=eb13f2450fe3a5fd9255943f4c5d6e27616e6b02f108e02a71779862fbf47b67 - ::1
+
+2024-07-26T17:51:59.384Z [INFO]: GET /authenticate?code=2cc059216bb58de55321a78d88e1c678f67febac25686591060cc041dd399c5b - ::1
+
+2024-07-26T17:51:59.593Z [INFO]: GET /authenticate?code=fe2487835c4bab6a84ee8959ded02c9d8d44caf94f7e837729dbad77007d86ad - ::1
+
+2024-07-26T17:51:59.813Z [INFO]: GET /authenticate?code=f13cba8ce7cb461fa4b12d0163b5a7c224a5479bafeca2c23034742cdbfc2a02 - ::1
+
+2024-07-26T17:52:00.034Z [INFO]: GET /authenticate?code=b8fa2f14a3fda6f5a1f2e47f27fa6adf09d1a559931ce7950bd9c6d3ad7b6816 - ::1
+
+2024-07-26T17:52:01.070Z [INFO]: GET /authenticate?code=b8fa2f14a3fda6f5a1f2e47f27fa6adf09d1a559931ce7950bd9c6d3ad7b6816 - ::1
+
+2024-07-26T17:52:01.276Z [INFO]: GET /authenticate?code=0c69ea6c16de4bac11b4312d7b6e10ec093305826cac51f6703c48eb5bf4d674 - ::1
+
+2024-07-26T17:52:01.482Z [INFO]: GET /authenticate?code=418fa2d8c2345183f537f5ef0fe91c9a289f9ce7aa8e23b9d3d0c92acd92bd6b - ::1
+
+2024-07-26T17:52:01.691Z [INFO]: GET /authenticate?code=ac289de8733f1b867245c32695fc1eb9db154541e2071b159eb7cfba833233b4 - ::1
+
+2024-07-26T17:52:01.915Z [INFO]: GET /authenticate?code=22c64f4dd772bf4884cce61d175db3d46552d464c2b5718076197f5844b9f742 - ::1
+
+2024-07-26T17:52:02.122Z [INFO]: GET /authenticate?code=599df08f10045e7f175ddbbc5a7510ad69c6f93d238b00b65ce011bea602130d - ::1
+
+2024-07-26T17:52:02.317Z [INFO]: GET /authenticate?code=d930e0d612d6ecc217dce4ae15aa2ded730c50fc075e1cbcd9f3b6b6d46356a3 - ::1
+
+2024-07-26T17:52:02.521Z [INFO]: GET /authenticate?code=0428baae33cea8c52df92843e5dad9ea9744476f6caa73972db2032ae6eb3496 - ::1
+
+2024-07-26T17:52:02.732Z [INFO]: GET /authenticate?code=55595b72f2d2160291210f0af6eeaea79793634bb2846e29469173da85827415 - ::1
+
+2024-07-26T17:52:03.096Z [INFO]: GET /authenticate?code=7db3b7efe8fcede3c2e201b3bc43303e1376c7ba7c37143556fd6419d1752cf5 - ::1
+
+2024-07-26T17:52:08.847Z [INFO]: GET /authenticate?code=1fa15b0e036bde43c490e0ed05fb889a1a36ea7b97bc2547273e38f7479124d8 - ::1
+
+2024-07-26T17:52:09.328Z [INFO]: GET /authenticate?code=4170394602c7eca2a71c6852403d801bada23cccb911f73223298869b871a05c - ::1
+
+2024-07-26T17:52:09.543Z [INFO]: GET /authenticate?code=15b4513e55e0f9bbfe69529522de7770aa455a44aea1165f87e9ec9d44b4905a - ::1
+
+2024-07-26T17:52:09.751Z [INFO]: GET /authenticate?code=be00aad7327a57291e02a7c28cad6bc3beb64267f509fb0a7014ed6e6a079e76 - ::1
+
+2024-07-26T17:52:09.949Z [INFO]: GET /authenticate?code=25c83d81dacd2aaaacdd16e63afca5f36b64cbafdd963fa0b6420651c605f3b9 - ::1
+
+2024-07-26T17:52:10.155Z [INFO]: GET /authenticate?code=90452affb5f49e58379c8e79d5ffcb4f925d19c850f9cc02256114f85dbcea0e - ::1
+
+2024-07-26T17:52:10.357Z [INFO]: GET /authenticate?code=d1eeb434cb3e5297e560d4c43e51c794280ba98f2ab618f16d263e66119691a3 - ::1
+
+2024-07-26T17:52:10.570Z [INFO]: GET /authenticate?code=706ac968ae8110810af68762ac9143f741f0a154cdd1f8c65387859b5762d163 - ::1
+
+2024-07-26T17:52:10.772Z [INFO]: GET /authenticate?code=a773a9156b21097b0d28e6cf72815163ea8326742ceb1779fd250bcd7e21ce63 - ::1
+
+2024-07-26T17:52:10.972Z [INFO]: GET /authenticate?code=91696e9d369fa82e2bc783de5f8f7fb30d4d8d7cc0de37bc754464ddf52ead1a - ::1
+
+2024-07-26T17:52:11.184Z [INFO]: GET /authenticate?code=d833cefd37f5469804600d3d136ff80b8625a7831ade62d9c409c284db5eb96a - ::1
+
+2024-07-26T17:52:12.218Z [INFO]: GET /authenticate?code=d833cefd37f5469804600d3d136ff80b8625a7831ade62d9c409c284db5eb96a - ::1
+
+2024-07-26T17:52:12.420Z [INFO]: GET /authenticate?code=640f59071ed43b8cf77dae45c81ff96750a5c2bde7baa1f4d5ef5ba702faf5c5 - ::1
+
+2024-07-26T17:52:12.614Z [INFO]: GET /authenticate?code=e253696f393b6a63acec3678367bcb323d9361a24d6d208f5d722ab9ff1c6c16 - ::1
+
+2024-07-26T17:52:12.816Z [INFO]: GET /authenticate?code=c2a1c9cef30e2189e0e839f153aa046a5ef05bf1d8f478559ec42f39777cd532 - ::1
+
+2024-07-26T17:52:13.023Z [INFO]: GET /authenticate?code=aef74ec3f92b8920d2b6b1f8efbcb3d3e074556d0b00dce399c2577efe84dbc1 - ::1
+
+2024-07-26T17:52:13.224Z [INFO]: GET /authenticate?code=74e7932c77731f3eb085085cdd126c88f1022fa4aee075f62f764907229de868 - ::1
+
+2024-07-26T17:52:13.435Z [INFO]: GET /authenticate?code=a891229e5cac773b9db2df267024a4e0d12789f2713f519c726851ea46660c0d - ::1
+
+2024-07-26T17:52:20.722Z [INFO]: GET /students - ::1
+
+2024-07-26T17:52:20.937Z [INFO]: GET /authenticate?code=8e6b7ce8ca54061d31c463d9fc230a2e92b67a1a7b4b8b886ffd842eb0651d8b - ::1
+
+2024-07-26T17:52:21.158Z [INFO]: GET /authenticate?code=8323fcec4f80dc68da0c22060bf8aafd61a5cd777449083129ae51e7fc048851 - ::1
+
+2024-07-26T17:52:21.361Z [INFO]: GET /authenticate?code=57c8798b4fe01233522983e76b9c2b08a53d26188a989bf70ce2a001ce59d646 - ::1
+
+2024-07-26T17:52:21.584Z [INFO]: GET /authenticate?code=b24c514f81fde9cd17ef611f3ff4a39bfedfdbac3e7c1c97b5131e241227acc5 - ::1
+
+2024-07-26T17:52:21.790Z [INFO]: GET /authenticate?code=4e198c218ede1342a6df28305d36e0cd4d5fe73ca4109e727c0f14263b650d31 - ::1
+
+2024-07-26T17:52:22.011Z [INFO]: GET /authenticate?code=768f6ec97c0997c78df81626702a43ede24a8f1d133635d1f997eea2a83e87ef - ::1
+
+2024-07-26T17:52:22.225Z [INFO]: GET /authenticate?code=3ae038342c02be4fee4397ca26cfda34cffebb4d1007bc1c8ace1da35779c0eb - ::1
+
+2024-07-26T17:52:22.433Z [INFO]: GET /authenticate?code=30857dcb8fed81cd2abed8c00b5126c5ffb78482861058e044cd00887c78812c - ::1
+
+2024-07-26T17:52:22.642Z [INFO]: GET /authenticate?code=263fa3776e0b724122319892cf5c45395198ca5960aa38d97b42e2aa531844dc - ::1
+
+2024-07-26T17:52:24.501Z [INFO]: GET /authenticate?code=dca4324c4b33b72bd86f0d58367e9993bf48e39d8b5e981e0717a1741f12e26d - ::1
+
+2024-07-26T17:52:24.703Z [INFO]: GET /authenticate?code=f5182b7cf81b603d646ab9961b7a109bbea60f24feaca210eee9aa793cc4a9ae - ::1
+
+2024-07-26T17:52:24.912Z [INFO]: GET /authenticate?code=458eefec80a8a0d8194799ea270a0178c9acbdebf2403f53ba3ce5b52a0c2704 - ::1
+
+2024-07-26T17:52:25.122Z [INFO]: GET /authenticate?code=526f3240792aec880066707d625bb22285f1cb348a4ac6e2fd6425b53cc28539 - ::1
+
+2024-07-26T17:52:25.330Z [INFO]: GET /authenticate?code=22ca94b5bc642e8547d60b3f58f50da03fa4449b3e89071595dbf35eaff87f2e - ::1
+
+2024-07-26T17:52:25.540Z [INFO]: GET /authenticate?code=8aaafb31887de44cf050cd557a8048dc7c7c9f6b421c5e61ceb9564fcedc4e96 - ::1
+
+2024-07-26T17:52:25.759Z [INFO]: GET /authenticate?code=6c0891f5be2f06d7e9f69273e3320f90198301b4afdeda01849497e37b69ce0f - ::1
+
+2024-07-26T17:52:25.961Z [INFO]: GET /authenticate?code=f489d580c86abb7ff9ee7bc241a3a1a0b159f72e84a36dc6ca1c1464396c5d53 - ::1
+
+2024-07-26T17:52:26.165Z [INFO]: GET /authenticate?code=e45d33f97a03a711c0bc3453a0c2c238eb1f6a1ea8ba4fac54e69337bc0846cd - ::1
+
+2024-07-26T17:52:26.363Z [INFO]: GET /authenticate?code=095a3bee2bc3fcad997ea9a68db02e994b70c5169bc5133516e58768ea0c52d8 - ::1
+
+2024-07-26T17:52:28.366Z [INFO]: GET /authenticate?code=095a3bee2bc3fcad997ea9a68db02e994b70c5169bc5133516e58768ea0c52d8 - ::1
+
+2024-07-26T17:52:28.579Z [INFO]: GET /authenticate?code=e582a7f87fa740ca641dbbe6a0ef304e295298dc4f00b4eb27d951cecc8dffb6 - ::1
+
+2024-07-26T17:52:28.902Z [INFO]: GET /authenticate?code=7d97607e53f2f2c5ee905615264341b4781c988c8c2200bdff1946e94db08569 - ::1
+
+2024-07-26T17:53:01.536Z [INFO]: GET /students - ::1
+
+2024-07-26T17:53:02.085Z [INFO]: GET /authenticate?code=4d49d2ccf4fc72b2f1d11669ccd76adbf25ba05c35cbef7c9b01fa33d6f8418e - ::1
+
+2024-07-26T17:53:02.306Z [INFO]: GET /authenticate?code=42bf820391adb7a5dc67e3ab42376b7b0da0eda9ef1928545abc5580caac4a2f - ::1
+
+2024-07-26T17:53:02.526Z [INFO]: GET /authenticate?code=8aa587e83b8da876a43e7758a41d69d3d5a46c42d5ebe61c003c186a52b0fc45 - ::1
+
+2024-07-26T17:53:02.745Z [INFO]: GET /authenticate?code=b6eaf8cd4fae4cdc549f76613459733f1187951e4ba6fb9e2187c14e4d05d62d - ::1
+
+2024-07-26T17:53:02.954Z [INFO]: GET /authenticate?code=1176d9eaded36c6132e211db601d44d5d999fc2d8173d6f55e89fe25ef2c675e - ::1
+
+2024-07-26T17:53:03.172Z [INFO]: GET /authenticate?code=3d96bec46e5ea3130d25c17dac4406bad3400b5585c037cea757309d5de943dc - ::1
+
+2024-07-26T17:53:03.375Z [INFO]: GET /authenticate?code=3149db55b31920249a7372e1dd6ff3a5f3ede819830988a2852c3aa04ab26781 - ::1
+
+2024-07-26T17:53:03.589Z [INFO]: GET /authenticate?code=b345cba1fefba2a0c4bad16107c78ef99481cda2e57a409670c0fe00b6eefb63 - ::1
+
+2024-07-26T17:53:03.799Z [INFO]: GET /authenticate?code=d2de65e43aef36663be74a726f2b7f0160f08b3f715b587765f823de353426e7 - ::1
+
+2024-07-26T17:53:05.313Z [INFO]: GET /authenticate?code=41001959f8e25a19a10786cb100aeec11472f82a9d58c25f224b7521a3ab941a - ::1
+
+2024-07-26T17:53:05.526Z [INFO]: GET /authenticate?code=171ea8edf30f48d4eebe7baaeee14dd5e038da1c7f7a5032aac7a24bc41f6b09 - ::1
+
+2024-07-26T17:53:05.731Z [INFO]: GET /authenticate?code=cb3fd3ec2e383d27007b0ce298c9e019dc0ebb82f82a3f89fc666e8539facd20 - ::1
+
+2024-07-26T17:53:05.935Z [INFO]: GET /authenticate?code=5f08fdcd8b12ba434a2d29150fbfc28263c4bb7cf5f70c3ca8c14c76f326ac8c - ::1
+
+2024-07-26T17:53:06.138Z [INFO]: GET /authenticate?code=244d1f110d1b6256e7df6ba3003c064181eccb40655c724ef7825aa2ea1a6fbc - ::1
+
+2024-07-26T17:53:06.341Z [INFO]: GET /authenticate?code=ab7fb03a8915b6cc8f3e4962481e9cce8cb57c16be530a4f22d99b660f694a20 - ::1
+
+2024-07-26T17:53:06.546Z [INFO]: GET /authenticate?code=2618f6d6967ccf9cf96b6719aca3217994b11743041dd0f6d0d99a2ea81fc95d - ::1
+
+2024-07-26T17:53:06.746Z [INFO]: GET /authenticate?code=4dfa56fe3d9f0383ed8d0ff3b8c4a05bd4c05c39e97a8ea376fcef78e7ec6f1b - ::1
+
+2024-07-26T17:53:07.235Z [INFO]: GET /authenticate?code=3ae64252f1f06b9f7740bb48d3a19b0a4ffc87ceeeabb52ac21ec947af872287 - ::1
+
+2024-07-26T17:53:07.441Z [INFO]: GET /authenticate?code=09c95bd9abbef580e4708a80efc679011ac9734ce508a267b497cc78db4aa21f - ::1
+
+2024-07-26T17:53:08.584Z [INFO]: GET /authenticate?code=09c95bd9abbef580e4708a80efc679011ac9734ce508a267b497cc78db4aa21f - ::1
+
+2024-07-26T17:53:08.784Z [INFO]: GET /authenticate?code=c1650d1b85bd74ade0594a77f72b421f8e574532de9d471eae322822f6425195 - ::1
+
+2024-07-26T17:53:08.987Z [INFO]: GET /authenticate?code=b1af243e443244703aef798046cb0bbdb08a8209efa8d3a08f4abd204fed68b6 - ::1
+
+2024-07-26T17:53:09.185Z [INFO]: GET /authenticate?code=7de3722e2e510fbabe2ddf8a10563f5bacf4f8bfdb02dcc4d868eb381f66e3bd - ::1
+
+2024-07-26T17:53:09.386Z [INFO]: GET /authenticate?code=6b759720b6f484d978934d80e71f904a5465fd09debc1fdf6ea2f536e2c320e0 - ::1
+
+2024-07-26T17:53:09.587Z [INFO]: GET /authenticate?code=c2244b0d519a17c122dd81e432549e28cc54690402bf431a73723e8cd2b1cc27 - ::1
+
+2024-07-26T17:54:36.354Z [INFO]: GET /authenticate - ::1
+
+2024-07-26T17:54:36.567Z [INFO]: GET /authenticate?code=aba09830514e3cffb0e54442c8fd16a1acee69f8152a0f969bf64a2c0c771007 - ::1
+
+2024-07-26T17:54:36.773Z [INFO]: GET /authenticate?code=699cf2a1ff0f766347afa6dca5c13e0643f263d9e5fdb92376feee72d6874965 - ::1
+
+2024-07-26T17:54:36.976Z [INFO]: GET /authenticate?code=d5ab67e87cf85a61c85941a230c4d9843ea32d0abdefc5736848f342c9663bb7 - ::1
+
+2024-07-26T17:54:37.194Z [INFO]: GET /authenticate?code=d3c5c32cd04132410d2d05288e7e5bd0ca844db7bbad8c41ec81430ad68ef7de - ::1
+
+2024-07-26T17:54:37.407Z [INFO]: GET /authenticate?code=2a5f4b0898a1998e67dbc68d51c25aaea4532203ab4cf4aab84c41d16bce06b3 - ::1
+
+2024-07-26T17:54:37.606Z [INFO]: GET /authenticate?code=2a451820bac377a2dfe41765836bf58358b429ba76929ecbd38de1e576a9df7b - ::1
+
+2024-07-26T17:54:37.815Z [INFO]: GET /authenticate?code=c0654f30b810d66f592dbbd62ba39f79495114bf7f58c6a44734e3aa617570fd - ::1
+
+2024-07-26T17:54:38.016Z [INFO]: GET /authenticate?code=4e030f9a0373094b2dcabd6c3a309b6cd07f01edc2bc327723a027b0f658f5d9 - ::1
+
+2024-07-26T17:54:38.212Z [INFO]: GET /authenticate?code=47e48b820001ad4b9b26762319deb7919826a14bc7c0dbf1e50a1128e43dee77 - ::1
+
+2024-07-26T17:54:39.640Z [INFO]: GET /authenticate?code=cdc65022cdd51530f82d557eb06d5baddc146edd06974230ef1abbd0d225c924 - ::1
+
+2024-07-26T17:54:39.837Z [INFO]: GET /authenticate?code=6617b64d86e48a8e526f44962c219b87ee870f6df8db378e47c818ef27297a2e - ::1
+
+2024-07-26T17:54:40.044Z [INFO]: GET /authenticate?code=057a387ef0a53c0f4d981d6fb476f2b4b7012a1c06d71b665a523b1ede55503f - ::1
+
+2024-07-26T17:54:40.243Z [INFO]: GET /authenticate?code=da4f23709e013fa1201754097cec04ba58377cd93c96c06dfd9e9e5aa42ee2e3 - ::1
+
+2024-07-26T17:54:40.444Z [INFO]: GET /authenticate?code=f79c6c17fef440ac85170b0d1b41a0b8936a88c3f7ae9cc0ab9d5b3ef0740f8c - ::1
+
+2024-07-26T17:54:40.650Z [INFO]: GET /authenticate?code=fa93b693c4238b2b90330ee2878910c5fd1292fbe683a6ce526f3dad73580f16 - ::1
+
+2024-07-26T17:54:40.853Z [INFO]: GET /authenticate?code=d58afe713e622bc8df756de802d7635670d7adad364549bd731326535dc8e8dd - ::1
+
+2024-07-26T17:54:41.067Z [INFO]: GET /authenticate?code=f8835c3f7340a3261d2386e4993ae126137b515d3313d3decf258b17760e0453 - ::1
+
+2024-07-26T17:54:41.271Z [INFO]: GET /authenticate?code=5144882d0250dedf25d7d7505046b082f20ed2d18b628469b09f285f15f52781 - ::1
+
+2024-07-26T17:54:41.474Z [INFO]: GET /authenticate?code=02ed034b4a335d58178f1dd35c097660409957ed8560b08ca45ac3e2c2989658 - ::1
+
+2024-07-26T17:54:43.328Z [INFO]: GET /authenticate?code=02ed034b4a335d58178f1dd35c097660409957ed8560b08ca45ac3e2c2989658 - ::1
+
+2024-07-26T17:54:43.537Z [INFO]: GET /authenticate?code=0085fdf13d6c8b5a087a4572dd38acab14f83177449f62f0e9b4ecd749f99b10 - ::1
+
+2024-07-26T17:54:43.742Z [INFO]: GET /authenticate?code=011592e4f807461a630d3ad61bf1e71bb693af228cfff9075948373879498ccf - ::1
+
+2024-07-26T17:54:57.727Z [INFO]: GET /authenticate - ::1
+
+2024-07-26T17:54:57.921Z [INFO]: GET /authenticate?code=782255ea41efd3acc98e59b3ea892a975ec27a8a14e5bc6b27499ab03c6de839 - ::1
+
+2024-07-26T17:54:58.127Z [INFO]: GET /authenticate?code=787e3d166b12234d2f4cbaf28887bc33547dba57c9f359ba317cc5d6a79c1959 - ::1
+
+2024-07-26T17:54:58.338Z [INFO]: GET /authenticate?code=8c5d61a2f8ac1ee9b0f5a950f567c89571981c883826199c0653a03478d52dbf - ::1
+
+2024-07-26T17:54:58.544Z [INFO]: GET /authenticate?code=13ae95aef229f3099ecb118b725805532dd2cb11e126f77240dc68997c3558e3 - ::1
+
+2024-07-26T17:54:58.751Z [INFO]: GET /authenticate?code=a7b3b616e2fd71e2b0928364b16b8099fc0a0d00ccf473c2ee8febd9576fe6bd - ::1
+
+2024-07-26T17:54:58.965Z [INFO]: GET /authenticate?code=2f4559bc0cf0844a2c6c5bd691e6b0660d382ff39667c531c7dff29cb2aab3bb - ::1
+
+2024-07-26T17:54:59.170Z [INFO]: GET /authenticate?code=01830fd023402102728cce1e34f0909df4e16a92f91a859fe6b3b458a3f1bb82 - ::1
+
+2024-07-26T17:54:59.381Z [INFO]: GET /authenticate?code=88818b0b587d23ab5f11ffc801d5b2765114fa0e30ed650be3416def9c51b882 - ::1
+
+2024-07-26T17:54:59.581Z [INFO]: GET /authenticate?code=cc196b45fb1b46266f0dbbf155e8cfe31c4f9d0cd6444ff1b53198a2dc7bf995 - ::1
+
+2024-07-26T17:55:01.016Z [INFO]: GET /authenticate?code=2b21b5e0d99fa7a3518411826bc6dd15fc0a4998095edd9b98601442c7267370 - ::1
+
+2024-07-26T17:55:01.217Z [INFO]: GET /authenticate?code=af19407b1bbbb58968b4d36fed4f69b53af9b0950407a382a937b5ed2752eeaa - ::1
+
+2024-07-26T17:55:01.431Z [INFO]: GET /authenticate?code=f74f094e31a6bae0eccf6558ff02aa63657602bc1f03005f338945c0ce403942 - ::1
+
+2024-07-26T17:55:01.637Z [INFO]: GET /authenticate?code=f0851feee0313e42132352814ba20db4251e7e9f4a1c253bfb9f7f4e0948cbd0 - ::1
+
+2024-07-26T17:55:01.848Z [INFO]: GET /authenticate?code=5dd01f05fe40a252a4ff39a517480ebadeadc88c4e4b0a696ce356f3d83488d1 - ::1
+
+2024-07-26T17:55:02.052Z [INFO]: GET /authenticate?code=11cede0432aab39e481916f38a30076220f01193897f31b7cdcbd5b6778786e2 - ::1
+
+2024-07-26T17:55:02.262Z [INFO]: GET /authenticate?code=076993ff19498090f41dd0d39fedd1a55b3449723b966fcbc212689f28e3b3f9 - ::1
+
+2024-07-26T17:55:02.464Z [INFO]: GET /authenticate?code=5a8bbad8defdacc0de7132709b189fce941925a5b6c9761ae268003fb24ea2e2 - ::1
+
+2024-07-26T17:55:02.702Z [INFO]: GET /authenticate?code=c0471f50ebb07e9375486fa2f5d3152af0e0fc26714b7ee56503bfab7a8798ff - ::1
+
+2024-07-26T17:55:02.909Z [INFO]: GET /authenticate?code=6df8ee6563285c1c78e906bba2e2d3bc39d6aced29531bf729fbf4c8cbf5d564 - ::1
+
+2024-07-26T17:55:07.937Z [INFO]: GET /authenticate?code=6df8ee6563285c1c78e906bba2e2d3bc39d6aced29531bf729fbf4c8cbf5d564 - ::1
+
+2024-07-26T17:55:08.140Z [INFO]: GET /authenticate?code=c88e6436b668ce602fc808364b4b4fcadfee423ab136d6cb66c220b3b14cdfb5 - ::1
+
+2024-07-26T17:55:08.354Z [INFO]: GET /authenticate?code=590f8f6d11490455d3f8a4a0019578a1513b1eeacf5e6665027d88521b8acc3e - ::1
+
+2024-07-26T17:55:08.562Z [INFO]: GET /authenticate?code=4abf239197fb8da28512928d7a8312abd22b8514fe346d271a20ddd280638981 - ::1
+
+2024-07-26T17:55:08.773Z [INFO]: GET /authenticate?code=c526bb69dedba27c0c68765490365806938fe89199cce4b50d2bd444eb595470 - ::1
+
+2024-07-26T17:55:08.972Z [INFO]: GET /authenticate?code=bafdca2b91a07e6e77917c0aeff22a84bd5a101a30c420facbf13041c05f34ca - ::1
+
+2024-07-26T17:55:09.173Z [INFO]: GET /authenticate?code=e3948c3360dcc993490d0c494fbadab9437be16c81c2bc0b035383873654584b - ::1
+
+2024-07-26T17:55:09.373Z [INFO]: GET /authenticate?code=0927c136363e76f55f2e17e0852558949ca65a2463808c4f5c2cab9255604fba - ::1
+
+2024-07-26T17:58:17.400Z [INFO]: GET /students - ::1
+
+2024-07-26T17:58:17.989Z [INFO]: GET /authenticate?code=b822837ef810326602e1ab724a7958028ab65947b3ea4efca8a75505052e6cd8 - ::1
+
+2024-07-26T17:58:18.001Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /authenticate?code=b822837ef810326602e1ab724a7958028ab65947b3ea4efca8a75505052e6cd8 - ::1
+
+2024-07-26T18:02:51.733Z [INFO]: GET /students - ::1
+
+2024-07-26T18:02:52.324Z [INFO]: GET /authenticate?code=766263808e70d239394d741c3164f4dfa5ab0f4c8197ca6b2221fe9966273e9a - ::1
+
+2024-07-26T18:02:52.335Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /authenticate?code=766263808e70d239394d741c3164f4dfa5ab0f4c8197ca6b2221fe9966273e9a - ::1
+
+2024-07-26T18:16:22.395Z [INFO]: GET /students - ::1
+
+2024-07-26T18:16:23.015Z [INFO]: GET /authenticate?code=410f54abe5b67941f0d1a9a5e822cbcccb0d4ae06b1a53b0831992fa0a76c0a2 - ::1
+
+2024-07-26T18:19:31.147Z [INFO]: GET /students - ::1
+
+2024-07-26T18:22:18.949Z [INFO]: GET /students - ::1
+
+2024-07-26T18:22:19.571Z [INFO]: GET /authenticate?code=a75c8a0cad851a0c42aa271477bf5e850a6635b63f3b93a405b9912b219ba1ca - ::1
+
+2024-07-26T18:27:08.022Z [INFO]: GET /students - ::1
+
+2024-07-26T18:28:11.518Z [INFO]: GET /students - ::1
+
+2024-07-26T18:28:12.141Z [INFO]: GET /authenticate?code=e85693abbc71857273164ffca0d30d7801e90d9700d5c352890c937050d592b3 - ::1
+
+2024-07-26T18:29:29.289Z [INFO]: GET /students - ::1
+
+2024-07-26T18:29:29.554Z [INFO]: GET /authenticate?code=673577e949a69d6ee936d7945b04fc1590976cbc53614158d02391053917feb8 - ::1
+
+2024-07-26T20:05:03.063Z [INFO]: GET /students - ::1
+
+2024-07-26T20:05:41.326Z [INFO]: GET /students - ::1
+
+2024-07-26T20:05:41.577Z [INFO]: GET /authenticate?code=8c6310981374fbafab1a040881d74bb5bbf143f32bf09e0d5a9d2a145a07c89c - ::1
+
+2024-07-26T20:08:11.333Z [INFO]: GET /students - ::1
+
+2024-07-26T20:08:11.899Z [INFO]: GET /authenticate?code=8923a2da79f0881feb787345982ffe2eb45ed53426b6fda760f7ce0d2350e491 - ::1
+
+2024-07-28T20:49:51.189Z [INFO]: GET /students - ::1
+
+2024-07-28T20:49:51.824Z [INFO]: GET /authenticate?code=22d3d4ef861538df39ce1dccff1094c629a1e5e0a1beff4845053936b469eacd - ::1
+
+2024-07-28T20:56:11.832Z [INFO]: GET /students - ::1
+
+2024-07-28T20:56:24.503Z [INFO]: GET /students - ::1
+
+2024-07-28T20:57:13.713Z [INFO]: GET /students - ::1
+
+2024-07-28T20:57:13.980Z [INFO]: GET /authenticate?code=f87061b3bb07a6d3dac7ca9216b1693c11ef6e43c0951f5c94397710aabe75d5 - ::1
+
+2024-07-28T20:57:14.834Z [INFO]: GET /students - ::1
+
+2024-07-28T21:02:48.343Z [INFO]: GET /students - ::1
+
+2024-07-28T21:24:10.804Z [INFO]: GET /students - ::1
+
+2024-07-28T21:26:06.793Z [INFO]: GET /students - ::1
+
+2024-07-28T21:41:11.811Z [INFO]: GET /students - ::1
+
+2024-07-28T21:43:25.366Z [INFO]: GET /students - ::1
+
+2024-07-28T21:46:32.028Z [INFO]: GET /students - ::1
+
+2024-07-28T21:47:54.767Z [INFO]: GET /students - ::1
+
+2024-07-28T21:50:00.401Z [INFO]: GET /students - ::1
+
+2024-07-28T21:51:50.530Z [INFO]: GET /students - ::1
+
+2024-07-28T21:55:18.067Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T21:55:18.729Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:56:36.773Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T21:56:37.310Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:57:22.429Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T21:57:23.038Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:59:10.046Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T21:59:10.283Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:59:10.996Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T21:59:11.221Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T22:02:46.330Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T22:02:47.246Z [ERROR]: getStudentCandidatureInformation.map is not a function -GET /students/candidatures - ::1
+
+2024-07-28T22:03:46.869Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T22:03:47.756Z [ERROR]: getStudentCandidatureInformation.map is not a function -GET /students/candidatures - ::1
+
+2024-07-28T22:05:19.169Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T22:05:19.819Z [ERROR]: getStudentCandidatureInformation.map is not a function -GET /students/candidatures - ::1
+
+2024-07-28T22:07:53.499Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-28T22:07:54.423Z [ERROR]: Request failed with status code 403 -GET /students/candidatures - ::1
+
+2024-07-29T12:34:37.346Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T12:34:39.374Z [INFO]: GET /authenticate?code=46ddd6008a37fe0b17582da5f14adfa6a91b01cb37acd3c45415b483945cc867 - ::1
+
+2024-07-29T12:34:40.703Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T12:34:40.915Z [INFO]: GET /authenticate?code=337bb1821160300f6df5591a570ca298792fe200c532842124a360c7e162d671 - ::1
+
+2024-07-29T12:35:53.185Z [INFO]: GET /authenticate?code=337bb1821160300f6df5591a570ca298792fe200c532842124a360c7e162d671 - ::1
+
+2024-07-29T12:35:54.670Z [INFO]: GET /authenticate?code=337bb1821160300f6df5591a570ca298792fe200c532842124a360c7e162d671 - ::1
+
+2024-07-29T12:35:54.998Z [ERROR]: The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. -GET /authenticate?code=337bb1821160300f6df5591a570ca298792fe200c532842124a360c7e162d671 - ::1
+
+2024-07-29T12:36:29.828Z [INFO]: GET /students - ::1
+
+2024-07-29T12:38:04.230Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T12:38:04.606Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-29T12:41:12.788Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T12:41:13.531Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-29T12:42:05.300Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T12:42:06.217Z [ERROR]: Request failed with status code 403 -GET /students/candidatures - ::1
+
+2024-07-29T13:08:17.598Z [INFO]: GET /students - ::1
+
+2024-07-29T13:09:41.832Z [INFO]: GET /students - ::1
+
+2024-07-29T13:13:54.764Z [INFO]: GET /students - ::1
+
+2024-07-29T13:15:25.055Z [INFO]: GET /students - ::1
+
+2024-07-29T13:15:46.378Z [ERROR]: Cannot set headers after they are sent to the client -GET /students - ::1
+
+2024-07-29T13:16:03.403Z [INFO]: GET /students - ::1
+
+2024-07-29T14:05:38.587Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:05:38.619Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:06:14.430Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:06:14.459Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:06:27.163Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:06:27.193Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:07:05.289Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:13:38.351Z [ERROR]: Request failed with status code 500 -GET /students/candidatures - ::1
+
+2024-07-29T14:18:33.287Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:18:33.320Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:18:55.066Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:19:44.917Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:26:32.515Z [ERROR]: candidatures.insertMany is not a function -GET /students/candidatures - ::1
+
+2024-07-29T14:27:56.456Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:33:27.437Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:47:29.854Z [ERROR]: read ECONNRESET -GET /students/candidatures - ::1
+
+2024-07-29T14:47:30.321Z [ERROR]: read ECONNRESET -GET /students/candidatures - ::1
+
+2024-07-29T14:55:01.074Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:55:01.681Z [INFO]: GET /authenticate?code=f75cf02b92071f33efdbdb96af3f712c94a8e40689ef8d89a9d3b183b293ae07 - ::1
+
+2024-07-29T14:55:02.533Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T14:55:02.736Z [INFO]: GET /authenticate?code=41f2b57ec43f74ad8dc9c8b2947fbde0ba1dbe0969a5fd7101df753083911507 - ::1
+
+2024-07-29T14:56:50.924Z [INFO]: GET /students/candidatures - ::1
+
+2024-07-29T15:09:10.616Z [INFO]: GET /students/candidatures - ::1
+

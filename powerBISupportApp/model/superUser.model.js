@@ -10,7 +10,7 @@ const SuperUserShema = new Schema({
         type: String,
         default: '',
     },
-    token: {
+    access_token: {
         type: String,
         default: '',
     },

@@ -1,112 +1,108 @@
-require('dotenv').config();
+require("dotenv").config();
 
-const axios = require('axios');
-const Students = require('../model/Students');
-const StudentCursus = require('../model/StudentCursus');
+const axios = require("axios");
+const {Student, StudentCandidature} = require("../model/Students");
+const { MultiPageRequest } = require("../../helper/requests.helper");
 
 let campusId = process.env.CAMPUS_42_LUANDA_ID;
-let cursus42Id = '21';
 
-const getStudentsController = async (req, res) => {
+const getStudentsController = async (req, res, next) => {
   try {
-    let token = req.user.token;
     let isStaff = false;
-    let campusEndpoint = '/campus';
-    let page = 1;
-    let perPage = 100;
-    let totalPages = 1;
-    let allUsers = [];
 
-    console.log('Starting API call...');
+    const userEndPoint = `${process.env.INTRA_API_BASE_URL}/campus/${campusId}/users?filter[staff?]=${isStaff}`;
 
-    while (page <= totalPages) {
-      const response = await axios.get(
-        `${process.env.API_BASE_URL}${campusEndpoint}/${campusId}/users?filter[staff?]=${isStaff}&page[number]=${page}&page[size]=${perPage}`,
-        {
-          headers: {
-            Authorization: `Bearer ${
-              typeof token === 'object' ? token.token : token
-            }`
-          }
-        }
-      );
+    const getGeneralStudentsInformation = await MultiPageRequest(
+      userEndPoint,
+      req.user,
+      true
+    );
 
-      allUsers = [...allUsers, ...response.data];
-      totalPages = parseInt(response.headers['x-total'], 10) || 1;
-      page++;
-
-      if (response.data.length <= 0) {
-        break;
-      }
+    const newStudents = [];
+    
+    for (let i = 0 ; i < getGeneralStudentsInformation.length; i++) {
+        
+        let student = getGeneralStudentsInformation[i];
+        let studentExist = await Student.find({student_id: student.id}).select('student_id');
+        if (studentExist.length < 1) newStudents.push(student);
+        
+        continue;
     }
 
-    const userArrays = allUsers
-      .filter((student) => student['active?'] === true)
-      .map((student) => ({
-        id_42: student.id,
-        active: student['active?'],
-        usual_full_name: student.usual_full_name,
-        isStaff: student['staff?']
-      }));
+    if (newStudents.length > 0) {
+        const generalStudentsInformation = newStudents.map(
+          (student) => ({
+            student_id: student.id,
+            email: student.email,
+            first_name: student.first_name,
+            last_name: student.last_name,
+            phone: student.phone,
+            image: student.image.link,
+            pool_year: student.pool_year,
+            "active?": student["active?"],
+          })
+        );
+    
+        const students = await Student.insertMany(generalStudentsInformation);
+        res.json(students);
+    }
+    
+    res.json({students: "All students up to date."});
 
-    console.log(userArrays);
-
-    await Students.insertMany(userArrays);
-
-    res.json(userArrays);
   } catch (err) {
     console.error(err);
-    res.status(500).send('Server Error');
+
+    next(err);
   }
 };
 
-const getCadetsController = async (req, res) => {
-  try {
-    let token = req.user.token;
-    let students = await Students.find();
-    let cadetsList = [];
+const getStudentCandidatureController = async (req, res, next) => {
 
-    let i = 0;
+    
+    try {
+        const storedUsers = await Student.find().select('student_id');
 
-    while (i < students.length) {
-      let studentId = students[i].id_42;
-      const response = await axios.get(
-        `${process.env.API_BASE_URL}/users/${studentId}/cursus_users`,
-        {
-          headers: { Authorization: `Bearer ${token}` }
+        for (const student of storedUsers) {
+            
+            const storedCandidature = await StudentCandidature.findOne({user_id: student.student_id})
+            
+            if (!storedCandidature) {
+
+                const endpoint = `${process.env.INTRA_API_BASE_URL}/users/${student.student_id}/user_candidature`;
+                
+                const response = await MultiPageRequest(
+                    endpoint,
+                    req.user,
+                    false
+                  );
+
+                const options =  {
+                    user_id: response.data.user_id,
+                    birth_date: response.data.birth_date,
+                    gender: response.data.gender,
+                    country: response.data.country,
+                    birth_city: response.data.birth_city,
+                    contact_phone1: response.data.contact_phone1,
+                    piscine_date: response.data.piscine_date,
+                    phone: response.data.phone,
+                    phone_country_code: response.data.phone_country_code  
+                }
+
+                await StudentCandidature.create(options);
+            }    
         }
-      );
-
-      const studentsInCursusOnly = response.data
-        .filter((data) => data.cursus_id === 21)
-        .map((data) => {
-          return {
-            studentCursusId: data.id,
-            studentId: data.user.id,
-            cursusId: data.cursus_id,
-            cursusName: data.cursus.name
-          };
-        });
-
-      console.log(`Checking if ${student[i].usual_full_name} is a cadet!`);
-
-      cadetsList = [...cadetsList, ...studentsInCursusOnly];
-
-      i++;
+        
+        res.json({candidatures: 'All up to date.'});
+        
+        
+    } catch (err) {
+        console.error(err)
+        next(err)
     }
 
-    console.log(cadetsList);
-
-    await StudentCursus.insertMany(cadetsList);
-
-    res.json(cadetsList);
-  } catch (err) {
-    console.error(err);
-    res.status(500).send('Server Error');
-  }
-};
+}
 
 module.exports = {
   getStudentsController,
-  getCadetsController
+  getStudentCandidatureController
 };

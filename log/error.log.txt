@@ -1,2 +1,84 @@
 2024-07-04T20:20:23.965Z [ERROR]: Testing error handler -GET /error - ::1
 
+2024-07-25T01:19:34.331Z [ERROR]: Assignment to constant variable. -GET /authenticate?code=6fb9cae8f5b9166ad25f6041cc90bdf2fbf7f3e4edd9b0ccd68d87d4a25d3b86 - ::1
+
+2024-07-25T01:20:35.584Z [ERROR]: Cannot access 'token' before initialization -GET /authenticate?code=85d84a438812c86add64a257e0d8458d99d0d39101e3d06e23081c6648541306 - ::1
+
+2024-07-25T01:26:33.366Z [ERROR]: The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. -GET /authenticate?code=d2148e2a75ee0a3828150d550007f77b6aca4a8da4c5a4683266eaa312733ec2 - ::1
+
+2024-07-26T01:23:11.811Z [ERROR]: Cannot access 'user' before initialization -GET /students - ::1
+
+2024-07-26T01:23:47.777Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:25:29.758Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:25:41.998Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:26:42.886Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:27:42.456Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:28:30.017Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:29:34.384Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:29:58.604Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:31:00.757Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T01:31:23.916Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:22:57.664Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:30:56.449Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:31:46.074Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /students - ::1
+
+2024-07-26T17:58:18.001Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /authenticate?code=b822837ef810326602e1ab724a7958028ab65947b3ea4efca8a75505052e6cd8 - ::1
+
+2024-07-26T18:02:52.335Z [ERROR]: Redirected path should match configured path, but got: /oauth/authorize -GET /authenticate?code=766263808e70d239394d741c3164f4dfa5ab0f4c8197ca6b2221fe9966273e9a - ::1
+
+2024-07-28T21:55:18.729Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:56:37.310Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:57:23.038Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:59:10.283Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T21:59:11.221Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-28T22:02:47.246Z [ERROR]: getStudentCandidatureInformation.map is not a function -GET /students/candidatures - ::1
+
+2024-07-28T22:03:47.756Z [ERROR]: getStudentCandidatureInformation.map is not a function -GET /students/candidatures - ::1
+
+2024-07-28T22:05:19.819Z [ERROR]: getStudentCandidatureInformation.map is not a function -GET /students/candidatures - ::1
+
+2024-07-28T22:07:54.423Z [ERROR]: Request failed with status code 403 -GET /students/candidatures - ::1
+
+2024-07-29T12:35:54.998Z [ERROR]: The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client. -GET /authenticate?code=337bb1821160300f6df5591a570ca298792fe200c532842124a360c7e162d671 - ::1
+
+2024-07-29T12:38:04.606Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-29T12:41:13.531Z [ERROR]: Request failed with status code 404 -GET /students/candidatures - ::1
+
+2024-07-29T12:42:06.217Z [ERROR]: Request failed with status code 403 -GET /students/candidatures - ::1
+
+2024-07-29T13:15:46.378Z [ERROR]: Cannot set headers after they are sent to the client -GET /students - ::1
+
+2024-07-29T14:05:38.619Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:06:14.459Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:06:27.193Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:13:38.351Z [ERROR]: Request failed with status code 500 -GET /students/candidatures - ::1
+
+2024-07-29T14:18:33.320Z [ERROR]: storedUsers is not iterable -GET /students/candidatures - ::1
+
+2024-07-29T14:26:32.515Z [ERROR]: candidatures.insertMany is not a function -GET /students/candidatures - ::1
+
+2024-07-29T14:47:29.854Z [ERROR]: read ECONNRESET -GET /students/candidatures - ::1
+
+2024-07-29T14:47:30.321Z [ERROR]: read ECONNRESET -GET /students/candidatures - ::1
+

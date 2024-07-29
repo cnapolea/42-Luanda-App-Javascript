@@ -1,24 +1,20 @@
 const mongoose = require('mongoose');
 
 const UserSchema = mongoose.Schema({
-  userId: {
-    type: Number,
-    default: 1,
+  userName: {
+    type: String,
     unique: true
   },
-  code: {
+  access_token: {
     type: String,
     default: ''
   },
-  token: {
+  refresh_token: {
     type: String,
-    default: ''
+    default: '',
+    
   },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-    expires: 4600
-  }
+  token_expiration_date: Date,
 });
 
 const User = mongoose.model('user', UserSchema);
